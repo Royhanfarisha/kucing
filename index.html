@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- link favicon -->
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
+    <!-- link google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Toko Kucing</title>
+</head>
+<body id="atas">
+
+    <!-- header -->
+    <header class="header" data-header>
+        <div class="container">
+            <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true" class="menu-icon"></ion-icon>
+                <ion-icon name="close-outline" aria-label="true" class="close-icon"></ion-icon>
+            </button>
+
+            <a href="#" class="logo">Kucing</a>
+
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <a href="#hero" class="navbar-link" data-nav-link>Halaman</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#beli" class="navbar-link" data-nav-link>Beli</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#koleksi" class="navbar-link" data-nav-link>Koleksi</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#kontak" class="navbar-link" data-nav-link>Kontak</a>
+                    </li>
+                    
+                </ul>
+
+                <a href="masuk.html" class="navbar-action-btn">Masuk</a>
+            </nav>
+
+            <div class="header-action">
+
+                <button class="action-btn" aria-label="search">
+                    <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+                <button class="action-btn" aria-label="user">
+                    <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                </button>
+
+                <button class="action-btn" aria-label="cart">
+                    <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                    <span class="btn-badge">0</span>
+                </button>
+
+
+            </div>
+        </div>
+    </header>
+
+
+    
+    <main>
+        <article>
+
+            <!-- hero -->
+
+            <section class="section hero has-bg-image" id="hero" aria-label="home" style="background-image: url(images/hero-banner.jpg);">
+                <div class="container">
+                    <h1 class="h1 hero-title">
+                        <span class="span">Kualitas Terbaik</span> Makanan Kucing
+                    </h1>
+                    <p class="hero-text">Diskon 40% Untuk Hari Ini</p>
+                    <a href="#" class="btn">Beli Sekarang</a>
+                </div>
+            </section>
+
+            <!-- kategori -->
+
+            <section class="section kategori"  aria-label="kategori">
+                <div class="container">
+                    <h2 class="h2 section-title">Kategori 
+                        <span class="span"> Terbaik</span> 
+                    </h2>
+        
+                    <ul class="has-scrollbar">
+        
+                        <li class="scrollbar-item">
+                            <div class="kategori-card">
+        
+                                <figure class="card-banner img-holder" style="--width : 330; --height : 300;" >
+        
+                                    <img src="images/category-1.jpg" width="330" height="300" loading="lazy" alt="makanan kucing" class="img-cover">
+        
+                                </figure>
+        
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Makanan Kucing</a>
+                                </h3>
+        
+        
+                            </div>
+                        </li>
+        
+                        <li class="scrollbar-item">
+                            <div class="kategori-card">
+        
+                                <figure class="card-banner img-holder" style="--width : 330; --height : 300;" >
+        
+                                    <img src="images/category-2.jpg" width="330" height="300" loading="lazy" alt="mainan kucing" class="img-cover">
+        
+                                </figure>
+        
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Mainan Kucing</a>
+                                </h3>
+        
+        
+                            </div>
+                        </li>
+        
+                        <li class="scrollbar-item">
+                            <div class="kategori-card">
+        
+                                <figure class="card-banner img-holder" style="--width : 330; --height : 300;" >
+        
+                                    <img src="images/category-3.jpg" width="330" height="300" loading="lazy" alt="makanan anjing" class="img-cover">
+        
+                                </figure>
+        
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Makanan Anjing</a>
+                                </h3>
+        
+        
+                            </div>
+                        </li>
+        
+                        <li class="scrollbar-item">
+                            <div class="kategori-card">
+        
+                                <figure class="card-banner img-holder" style="--width : 330; --height : 300;" >
+        
+                                    <img src="images/category-4.jpg" width="330" height="300" loading="lazy" alt="mainan anjing" class="img-cover">
+        
+                                </figure>
+        
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Mainan Anjing</a>
+                                </h3>
+        
+        
+                            </div>
+                        </li>
+        
+                        <li class="scrollbar-item">
+                            <div class="kategori-card">
+        
+                                <figure class="card-banner img-holder" style="--width : 330; --height : 300;" >
+        
+                                    <img src="images/category-5.jpg" width="330" height="300" loading="lazy" alt="vitamin anjing" class="img-cover">
+        
+                                </figure>
+        
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Vitamin Anjing</a>
+                                </h3>
+        
+        
+                            </div>
+                        </li>
+        
+                    </ul>
+                </div>
+            </section>
+
+
+            <!-- offer -->
+            <section class="section offer"  aria-label="offer">
+                <div class="container">
+                    <ul class="grid-list">
+
+                        <li>
+                            <div class="offer-card has-bg-image img-holder" style="background-image: url(images/offer-banner-1.jpg); --width : 540; --height : 374;">
+                            
+                            <p class="card-subtitle">Pilih Produk. Hanya Online</p>
+
+                            <h3 class="h3 card-title">Penawaran <span class="span">Terbaik</span>
+                            </h3>
+
+                            <a href="#" class="btn">Baca Selengkapnya</a>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="offer-card has-bg-image img-holder" style="background-image: url(images/offer-banner-2.jpg); --width : 540; --height : 374;">
+                            
+                            <p class="card-subtitle">Perawatan & Pengobatan</p>
+
+                            <h3 class="h3 card-title">Memanjakan Peliharaan Dengan <span class="span">Cinta</span>
+                            </h3>
+
+                            <a href="#" class="btn">Baca Selengkapnya</a>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="offer-card has-bg-image img-holder" style="background-image: url(images/offer-banner-3.jpg); --width : 540; --height : 374;">
+                            
+                            <p class="card-subtitle">Merek Kami Yang Anda Sukai</p>
+
+                            <h3 class="h3 card-title">Terbaik Di Tahun <span class="span">Ini</span>
+                            </h3>
+
+                            <a href="#" class="btn">Baca Selengkapnya</a>
+
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </section>
+
+
+            <!-- produk -->
+
+            <section class="section produk" id="beli" aria-label="produk">
+                <div class="container">
+                    
+                    <h2 class="h2 section-title">
+                        <span class="span">Produk</span> Terbaik
+                    </h2>
+
+                    <ul class="grid-list">
+
+                        <li>
+                            <div class="produk-card">
+                                <div class="card-banner img-holder" style="--width: ; --height: ;">
+                                    
+                                    <img src="images/product-1.jpg" width="360" height="360" loading="lazy" alt="purus consequat congue sit" class="img-cover defaul">
+                                    <img src="images/product-1_0.jpg" width="360" height="360" loading="lazy" alt="comodo leo sed porta" class="img-cover hover">
+
+                                    <button class="card-action-btn" aria-label="add to card" title="add to card">
+                                        <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                                    </button>
+                                </div>
+
+                                <div class="card-content">
+                                    <div class="wrapper">
+
+                                        <div class="rating-wrapper">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                        </div>
+
+                                        <span class="span">(1)</span>
+                                    </div>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Buku Tentang Anjing</a>
+                                    </h3>
+
+                                    <data class="card-price" value="15">Rp 15.000</data>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="produk-card">
+                                <div class="card-banner img-holder" style="--width: ; --height: ;">
+                                    
+                                    <img src="images/product-2.jpg" width="360" height="360" loading="lazy" alt="purus consequat congue sit" class="img-cover defaul">
+                                    <img src="images/product-2_0.jpg" width="360" height="360" loading="lazy" alt="purus consequat congue sit" class="img-cover hover">
+
+                                    <button class="card-action-btn" aria-label="add to card" title="add to card">
+                                        <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                                    </button>
+                                </div>
+
+                                <div class="card-content">
+                                    <div class="wrapper">
+
+                                        <div class="rating-wrapper gray">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                        </div>
+
+                                        <span class="span">(0)</span>
+                                    </div>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Pakan Kucing Rasa Ikan</a>
+                                    </h3>
+
+                                    <data class="card-price" value="45">Rp 45.000</data>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="produk-card">
+                                <div class="card-banner img-holder" style="--width: ; --height: ;">
+                                    
+                                    <img src="images/product-3.jpg" width="360" height="360" loading="lazy" alt="morbi vel arcu scelerisqu" class="img-cover defaul">
+                                    <img src="images/product-3_0.jpg" width="360" height="360" loading="lazy" alt="morbi vel arcu scelerisqu" class="img-cover hover">
+
+                                    <button class="card-action-btn" aria-label="add to card" title="add to card">
+                                        <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                                    </button>
+                                </div>
+
+                                <div class="card-content">
+                                    <div class="wrapper">
+
+                                        <div class="rating-wrapper">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                        </div>
+
+                                        <span class="span">(1)</span>
+                                    </div>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Pakan Anjing Rasa Ikan</a>
+                                    </h3>
+
+                                    <data class="card-price" value="15">Rp 15.000</data>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="produk-card">
+                                <div class="card-banner img-holder" style="--width: ; --height: ;">
+                                    
+                                    <img src="images/product-4.jpg" width="360" height="360" loading="lazy" alt="nam justo libero porta ege" class="img-cover defaul">
+                                    <img src="images/product-4_0.jpg" width="360" height="360" loading="lazy" alt="nam justo libero porta ege" class="img-cover hover">
+
+                                    <button class="card-action-btn" aria-label="add to card" title="add to card">
+                                        <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                                    </button>
+                                </div>
+
+                                <div class="card-content">
+                                    <div class="wrapper">
+
+                                        <div class="rating-wrapper">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                        </div>
+
+                                        <span class="span">(1)</span>
+                                    </div>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Pakan Burung</a>
+                                    </h3>
+
+                                    <data class="card-price" value="85">Rp 85.000</data>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="produk-card">
+                                <div class="card-banner img-holder" style="--width: ; --height: ;">
+                                    
+                                    <img src="images/product-5.jpg" width="360" height="360" loading="lazy" alt="etian comodo leo sad" class="img-cover defaul">
+                                    <img src="images/product-5_0.jpg" width="360" height="360" loading="lazy" alt="etian comodo leo sad" class="img-cover hover">
+
+                                    <button class="card-action-btn" aria-label="add to card" title="add to card">
+                                        <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                                    </button>
+                                </div>
+
+                                <div class="card-content">
+                                    <div class="wrapper">
+
+                                        <div class="rating-wrapper">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                        </div>
+
+                                        <span class="span">(1)</span>
+                                    </div>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Mainan Kucing</a>
+                                    </h3>
+
+                                    <data class="card-price" value="55">Rp 55.000</data>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="produk-card">
+                                <div class="card-banner img-holder" style="--width: ; --height: ;">
+                                    
+                                    <img src="images/product-6.jpg" width="360" height="360" loading="lazy" alt="Nam justo libero porta ege" class="img-cover defaul">
+                                    <img src="images/product-6_0.jpg" width="360" height="360" loading="lazy" alt="Nam justo libero porta ege" class="img-cover hover">
+
+                                    <button class="card-action-btn" aria-label="add to card" title="add to card">
+                                        <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                                    </button>
+                                </div>
+
+                                <div class="card-content">
+                                    <div class="wrapper">
+
+                                        <div class="rating-wrapper">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                        </div>
+
+                                        <span class="span">(1)</span>
+                                    </div>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Tempat Minum Kucing</a>
+                                    </h3>
+
+                                    <data class="card-price" value="55">Rp 55.000</data>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="produk-card">
+                                <div class="card-banner img-holder" style="--width: ; --height: ;">
+                                    
+                                    <img src="images/product-7.jpg" width="360" height="360" loading="lazy" alt="Nam justo libero porta ege" class="img-cover defaul">
+                                    <img src="images/product-7_0.jpg" width="360" height="360" loading="lazy" alt="Nam justo libero porta ege" class="img-cover hover">
+
+                                    <button class="card-action-btn" aria-label="add to card" title="add to card">
+                                        <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                                    </button>
+                                </div>
+
+                                <div class="card-content">
+                                    <div class="wrapper">
+
+                                        <div class="rating-wrapper">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                        </div>
+
+                                        <span class="span">(1)</span>
+                                    </div>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Suplemen Untuk Anjing</a>
+                                    </h3>
+
+                                    <data class="card-price" value="55">Rp 100.000</data>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="produk-card">
+                                <div class="card-banner img-holder" style="--width: ; --height: ;">
+                                    
+                                    <img src="images/product-8.jpg" width="360" height="360" loading="lazy" alt="Nam justo libero porta ege" class="img-cover defaul">
+                                    <img src="images/product-8_0.jpg" width="360" height="360" loading="lazy" alt="Nam justo libero porta ege" class="img-cover hover">
+
+                                    <button class="card-action-btn" aria-label="add to card" title="add to card">
+                                        <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                                    </button>
+                                </div>
+
+                                <div class="card-content">
+                                    <div class="wrapper">
+
+                                        <div class="rating-wrapper">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+                                        </div>
+
+                                        <span class="span">(1)</span>
+                                    </div>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">Obat Untuk Anjing</a>
+                                    </h3>
+
+                                    <data class="card-price" value="55">Rp 55.000</data>
+                                </div>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </section>
+
+
+            <!-- service -->
+
+            <section class="section service" aria-label="service">
+                <div class="container">
+
+                    <img src="images/service-image.png" width="122" height="136" loading="lazy" alt="" class="img">
+                    <h2 class="h2 section-title">
+                        <span class="span">Apa yang dibutuhkan hewan, </span>saat mereka membutuhkannya.
+                    </h2>
+
+                    <ul class="grid-list">
+
+                        <li>
+                            <div class="service-card">
+                                
+                                <figure class="card-icon">
+                                    <img src="images/service-icon-1.png" width="70" height="70" loading="lazy" alt="service icon">
+                                </figure>
+                                
+                                <h3 class="h3 card-title">Pengiriman GRATIS</h3>
+                                <p class="card-text">
+                                    Pesan paling lambat pukul 14.00 waktu setempat untuk mendapatkan pengiriman gratis untuk diatas pesanan Rp 300.000 hari ini.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="service-card">
+                                
+                                <figure class="card-icon">
+                                    <img src="images/service-icon-2.png" width="70" height="70" loading="lazy" alt="service icon">
+                                </figure>
+                                
+                                <h3 class="h3 card-title">Pengembalian Barang 30 Hari</h3>
+                                <p class="card-text">
+                                    Diskon 50% untuk pesanan pertama Anda ditambah diskon 5% untuk semua pesanan selanjutnya.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="service-card">
+                                
+                                <figure class="card-icon">
+                                    <img src="images/service-icon-3.png" width="70" height="70" loading="lazy" alt="service icon">
+                                </figure>
+                                
+                                <h3 class="h3 card-title">Keamanan Dalam Pembayaran</h3>
+                                <p class="card-text">
+                                    Diskon 25% untuk pesanan online. Tersedia di berbagai cabang terdekat.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="service-card">
+                                
+                                <figure class="card-icon">
+                                    <img src="images/service-icon-4.png" width="70" height="70" loading="lazy" alt="service icon">
+                                </figure>
+                                
+                                <h3 class="h3 card-title">Call Center 24 Jam</h3>
+                                <p class="card-text">
+                                    Berbelanja online untuk mendapatkan pesanan lebih cepat dan gratis.
+                                </p>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+            <!-- CTA -->
+
+            <section class="cta has-bg-image" id="blog" aria-label="cta" style="background-image: url(images/cta-bg.jpg);">
+                <div class="container">
+
+                    <figure class="cta-banner">
+                        <img src="images/cta-banner.png" width="900" height="660" loading="lazy" alt="cat" class="w-100">
+                    </figure>
+
+                    <div class="cta-content">
+
+                        <img src="images/cta-icon.png" width="120" height="35" loading="lazy" alt="taste guarantee" class="img">
+
+                        <h2 class="h2 section-title">Cicipi, suka atau kami akan menggantinya… Dijamin!</h2>
+
+                        <p class="section-text">Kami yakin anjing dan kucing Anda akan sangat menyukai makanannya sehingga jika tidak… kami akan membantu Anda mencari penggantinya.</p>
+                        <a href="#" class="btn">Temukan lebih banyak lagi</a>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- brand -->
+
+            <section class="section brand" id="koleksi" aria-label="brand">
+                <div class="container">
+
+                    <h2 class="h2 section-title">
+                        <span class="span">Brand </span>Terkenal
+                    </h2>
+
+                    <ul class="has-scrollbar">
+
+                        <li class="scrollbar-item">
+                            <div class="brand-card img-holder" style="--width: 150; --height: 150;">
+                                <img src="images/brand-1.jpg" width="150" height="150" loading="lazy" alt="brand logo" class="img-cover">
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="brand-card img-holder" style="--width: 150; --height: 150;">
+                                <img src="images/brand-2.jpg" width="150" height="150" loading="lazy" alt="brand logo" class="img-cover">
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="brand-card img-holder" style="--width: 150; --height: 150;">
+                                <img src="images/brand-3.jpg" width="150" height="150" loading="lazy" alt="brand logo" class="img-cover">
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="brand-card img-holder" style="--width: 150; --height: 150;">
+                                <img src="images/brand-4.jpg" width="150" height="150" loading="lazy" alt="brand logo" class="img-cover">
+                            </div>
+                        </li>
+
+                        <li class="scrollbar-item">
+                            <div class="brand-card img-holder" style="--width: 150; --height: 150;">
+                                <img src="images/brand-5.jpg" width="150" height="150" loading="lazy" alt="brand logo" class="img-cover">
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+            <!-- footer -->
+
+            <footer class="footer" id="kontak" style="background-image: url(images/footer-bg.jpg);">
+            
+                <div class="footer-top section">
+                    <div class="container">
+
+                        <div class="footer-brand">
+                            <a href="#" class="logo">Kucing</a>
+
+                            <p class="footer-text">Jika ada pertanyaan, hubungi kami <a href="#" class="link"> supportkucing@gmail.com</a></p>
+
+                            <ul class="contact-list">
+
+                                <li class="content-item">
+                                    <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+                                    <a href="#" class="contact-link">Kabupaten Cirebon, Gegesik 45164</a>
+                                </li>
+
+                                <li class="contact-item">
+                                    <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                                    <a href="#" class="contact-link">(+62)87609218710</a>
+                                </li>
+                            </ul>
+
+                            <ul class="social-list">
+
+                                <li>
+                                    <a href="#" class="social-link">
+                                        <ion-icon name="logo-facebook"></ion-icon>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="social-link">
+                                        <ion-icon name="logo-twitter"></ion-icon>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="social-link">
+                                        <ion-icon name="logo-pinterest"></ion-icon>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="social-link">
+                                        <ion-icon name="logo-instagram"></ion-icon>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                        <ul class="footer-list">
+
+                            <li>
+                                <p class="footer-list-title">Perusahaan</p>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Karir</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Tentang Kami</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Hubungi Kami</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">FAQs</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Vendor</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Program Affiliate </a>
+                            </li>
+                            
+                        </ul>
+
+                        <ul class="footer-list">
+
+                            <li>
+                                <p class="footer-list-title">Informasi</p>
+                            </li>
+                            <li>
+                                <a href="#beli" class="footer-link">Toko Online</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Keamanan Pembayaran</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Keamanan Pengembalian</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Keamanan Pengiriman</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Ketentuan Layanan</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Lacak Pesanan</a>
+                            </li>
+                              
+                        </ul>
+
+                        <ul class="footer-list">
+
+                            <li>
+                                <p class="footer-list-title">Servis</p>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Perawatan</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Pelatihan Anjing</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Dokter hewan</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Asuransi Hewan</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Adopsi Hewan</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer-link">Pusat Pelayanan</a>
+                            </li>
+                            
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <div class="container">
+
+                        <p class="copyright">
+                            &copy; 2023 Made With By <a href="#" class="copyright-link">Royhan Farisa</a>
+                        </p>
+
+                        <img src="images/payment.png" width="397" height="32" loading="lazy" alt="payment method" class="img">
+                    </div>
+                </div>
+
+            </footer>
+
+            <!-- kembali ke atas -->
+
+            <a href="#atas" class="back-top-btn" aria-label="back top btn" data-back-top-btn>
+                <ion-icon name="arrow-up"></ion-icon>
+            </a>
+
+
+        </article>
+    </main>
+
+
+
+
+
+    <!-- link javascript -->
+    <script src="script.js" defer></script>
+
+    <!-- link ionicon -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
